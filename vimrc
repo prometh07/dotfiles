@@ -18,6 +18,7 @@ filetype plugin indent on    " required
 " NERDTree
 autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+let NERDTreeShowHidden=1
 
 " solarized
 syntax enable
