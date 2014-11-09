@@ -12,6 +12,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-fugitive'
+Bundle 'slim-template/vim-slim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
