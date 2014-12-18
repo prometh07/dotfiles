@@ -14,6 +14,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-fugitive'
 Plugin 'slim-template/vim-slim'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'mileszs/ack.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -33,7 +34,7 @@ autocmd Filetype * setlocal ts=2 sts=2 sw=2
 autocmd Filetype vim setlocal ts=2 sts=2 sw=2
 autocmd Filetype html setlocal ts=2 sts=2 sw=2
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
-autocmd Filetype python setlocal ts=8 sts=4 sw=4
+autocmd Filetype python setlocal ts=4 sts=4 sw=4
 
 " other options
 set number
