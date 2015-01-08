@@ -15,6 +15,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'slim-template/vim-slim'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mileszs/ack.vim'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
