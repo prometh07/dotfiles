@@ -1,0 +1,14 @@
+packages: [
+  "autocomplete-python"
+  "highlight-selected"
+  "language-matlab-octave"
+  "language-scala"
+  "markdown-preview-plus"
+  "minimap"
+  "minimap-highlight-selected"
+  "package-sync"
+  "pigments"
+  "scala-worksheet-plus"
+  "vim-mode"
+  "file-icons"
+]

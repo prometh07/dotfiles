@@ -1,0 +1,20 @@
+"*":
+  "autocomplete-python": {}
+  core:
+    disabledPackages: [
+      "autocomplete-html"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    fontSize: 15
+    invisibles: {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  welcome:
+    showOnStartup: false
