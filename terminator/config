@@ -1,41 +1,44 @@
 [global_config]
   always_split_with_profile = True
-  title_transmit_bg_color = "#d30102"
-  suppress_multiple_term_dialog = True
+  borderless = True
   focus = system
+  geometry_hinting = False
+  suppress_multiple_term_dialog = True
   tab_position = hidden
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#d30102"
 [keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = 4bit
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
 [profiles]
   [[default]]
     background_image = None
-    use_theme_colors = True
+  [[4bit]]
+    background_color = "#023039"
+    background_image = None
+    foreground_color = "#c7d4e1"
+    icon_bell = False
+    login_shell = True
+    palette = "#0d1926:#96859a:#81a391:#969a91:#788db0:#8e85b0:#78a3a7:#c7d4e1:#2f3c49:#b8b5c6:#adc5c1:#b8c0c1:#a8b9d1:#b3b5d1:#a8c5cd:#d9e5f2"
+    scrollbar_position = hidden
+    show_titlebar = False
+  [[Zenburn]]
+    background_image = None
+    cursor_color = "#dcdcdc"
+    login_shell = True
+    palette = "#3f3f3f:#cc9393:#7f9f7f:#e3ceab:#dfaf8f:#cc9393:#8cd0d3:#dcdccc:#3f3f3f:#cc9393:#7f9f7f:#e3ceab:#dfaf8f:#cc9393:#8cd0d3:#dcdccc"
     show_titlebar = False
   [[solarized-dark]]
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     background_color = "#002b36"
     background_image = None
     cursor_color = "#eee8d5"
     foreground_color = "#eee8d5"
-  [[solarized-light]]
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_color = "#eee8d5"
-    background_image = None
-    cursor_color = "#002b36"
-    foreground_color = "#002b36"
-  [[Zenburn]]
-    title_transmit_bg_color = "#d30102"
-    palette = "#3f3f3f:#cc9393:#7f9f7f:#e3ceab:#dfaf8f:#cc9393:#8cd0d3:#dcdccc:#3f3f3f:#cc9393:#7f9f7f:#e3ceab:#dfaf8f:#cc9393:#8cd0d3:#dcdccc"
-    background_color = "#3f3f3f"
-    background_image = None
-    cursor_color = "#dcdcdc"
-    foreground_color = "#dcdcdc"
-[layouts]
-  [[default]]
-    [[[child1]]]
-      type = Terminal
-      parent = window0
-      profile = Zenburn
-    [[[window0]]]
-      type = Window
-      parent = ""
-[plugins]
