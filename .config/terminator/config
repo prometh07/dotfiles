@@ -20,8 +20,6 @@
 [plugins]
 [profiles]
   [[default]]
-    background_image = None
-  [[4bit]]
     background_color = "#023039"
     background_image = None
     foreground_color = "#c7d4e1"
