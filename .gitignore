@@ -4,3 +4,5 @@
 .atom/packages/*
 .atom/storage/*
 .atom/recovery/*
+.config/fish/fish_history
+.config/fish/fishd*

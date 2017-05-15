@@ -5,7 +5,7 @@ dotfiles_old=$HOME/dotfiles_old/$date
 mkdir -p $dotfiles_old/$date
 
 files=".vimrc .vim .gitconfig .gitignore"
-dirs=".vim .config/terminator .atom"
+dirs=".vim .config/terminator .config/fish .atom"
 
 echo "Creating backup in $dotfiles_old"
 for file in $files; do mv $HOME/$file $dotfiles_old; done
