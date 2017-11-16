@@ -22,10 +22,3 @@ for dir in $dirs; do
     ln -s $dotfiles/$dir $HOME
   fi
 done
-
-#if [ ! -d ~/.atom/packages/package-sync ]; then
-#  if type apm > /dev/null 2>&1; then
-#    echo "Installing Atom package-sync package."
-#    apm install package-sync
-#  fi
-#fi
