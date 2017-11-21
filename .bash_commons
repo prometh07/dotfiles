@@ -7,3 +7,7 @@ chruby ruby-2.4
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+# node global dir
+export NPM_CONFIG_PREFIX=$HOME/.npm_global
+export PATH=$HOME/.npm_global/bin:$PATH
