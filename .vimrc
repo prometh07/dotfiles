@@ -28,7 +28,7 @@ nmap <silent> <C-P> :NERDTreeToggle<CR>
 " solarized
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme gruvbox
 
 " indent
 set ts=2 sts=2 sw=2
@@ -42,3 +42,4 @@ set number
 set expandtab
 set nowrap
 set autoindent
+set t_Co=256
