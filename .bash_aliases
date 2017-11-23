@@ -1,6 +1,6 @@
-if [ -e .bash_commons ]
+if [ -e $HOME/.bash_commons ]
 then
-  . .bash_commons
+  . $HOME/.bash_commons
 fi
 
 alias ll="ls -lAh"
