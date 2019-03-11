@@ -4,7 +4,7 @@ date=`date +"%Y-%m-%d_%H-%M"`
 dotfiles_old=$HOME/dotfiles_old/$date
 mkdir -p $dotfiles_old/$date
 
-files=".vimrc .vim .gitconfig .gitignore .tmux.conf .bash_aliases .bash_commons"
+files=".vimrc .gitconfig .gitignore .tmux.conf .bash_aliases .bash_commons"
 dirs=".vim .config/terminator .config/fish .atom"
 
 echo "Creating backup in $dotfiles_old"

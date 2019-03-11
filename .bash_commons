@@ -1,13 +1,21 @@
 # chruby
-. /usr/local/share/chruby/chruby.sh
-. /usr/local/share/chruby/auto.sh
-chruby ruby-2.4
+if [ "$(uname)" == "Darwin" ]; then
+  . /usr/local/opt/chruby/share/chruby/chruby.sh
+  . /usr/local/opt/chruby/share/chruby/auto.sh
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+  . /usr/local/share/chruby/chruby.sh
+  . /usr/local/share/chruby/auto.sh
+fi
+chruby ruby-2.6
 
 # pyenv
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
 
 # node global dir
 export NPM_CONFIG_PREFIX=$HOME/.npm_global
 export PATH=$HOME/.npm_global/bin:$PATH
+
+# golang
+export GOPATH=$HOME/code/go
+export PATH=$PATH:$GOPATH/bin
