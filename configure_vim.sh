@@ -1,3 +1,5 @@
 #!/bin/bash
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim &&
+VUNDLE_DIR=$HOME/.vim/bundle/Vundle.vim
+mkdir -p "$VUNDLE_DIR" &&
+git clone https://github.com/VundleVim/Vundle.vim.git "$VUNDLE_DIR" &&
 vim +PluginInstall +qall
