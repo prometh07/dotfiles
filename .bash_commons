@@ -6,7 +6,7 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
   . /usr/local/share/chruby/chruby.sh
   . /usr/local/share/chruby/auto.sh
 fi
-chruby ruby-2.6
+chruby ruby-3.0
 
 # pyenv
 export PATH="$HOME/.pyenv/bin:$PATH"
