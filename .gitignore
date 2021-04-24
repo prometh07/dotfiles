@@ -1,8 +1,10 @@
 *.swp
 *.swo
 .DS_Store
-.atom/packages/*
-.atom/storage/*
-.atom/recovery/*
+!.atom/config.cson
+!.atom/keymap.cson
+!.atom/packages.cson
+!.atom/styles.less
+.atom/*
 .config/fish/fish_history
 .config/fish/fishd*
